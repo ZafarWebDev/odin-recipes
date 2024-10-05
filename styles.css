@@ -3,16 +3,31 @@
 body {
     font-family: Helvetica, sans-serif;
     font-size: x-large;
-    background-color: aliceblue;
+    background-color: #fefae0;
+    width: 600px;
+    margin:0 auto;
+
 }
 
 h1 {
     text-align: center;
-    color: rgb(171, 114, 6);
-    background-color: burlywood;
+    color: #e9c46a;
+    background-color: #2a9d8f;
     padding: 10px 10px 0 0;
+    margin-bottom: 50px;
+}
+ul li {
+    margin: 15px;
+    list-style:none;
 }
 
 a {
-    color: rgb(180, 159, 0);
+    color: #2a9d8f;
+}
+
+a:hover {
+    color: #264653;
+    background-color: #2a9d8f;
+    padding: 5px;
+
 }
